@@ -2,11 +2,12 @@ const fs = require('fs')
 const palettes = require('../src/palettes.json')
 
 const colors = palettes.reduce((result, palette) => {
-    const shades = palette.shades.map(shade => {
+    palette.shades.forEach(shade => {
         shade.id = [palette.id, shade.id].join('.')
-        return shade
+
+        result[shade.id] = shade
     })
-    return result.concat(shades)
-}, [])
+    return result
+}, {})
 
 fs.writeFileSync(__dirname + '/../src/colors.json', JSON.stringify(colors, null, 2))

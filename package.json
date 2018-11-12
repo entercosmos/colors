@@ -1,6 +1,6 @@
 {
   "name": "@cmds/colors",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Used for adding color to things.",
   "main": "lib/index.js",
   "module": "es/index.js",

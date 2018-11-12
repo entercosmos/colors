@@ -1,5 +1,5 @@
-[
-  {
+{
+  "silver.lighter": {
     "id": "silver.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -7,7 +7,7 @@
     "backgroundColor": "rgb(249, 250, 251)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "silver.light": {
     "id": "silver.light",
     "hasDarkText": true,
     "name": "Light",
@@ -15,7 +15,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "silver.base": {
     "id": "silver.base",
     "hasDarkText": true,
     "name": "Silver",
@@ -23,7 +23,7 @@
     "backgroundColor": "rgb(223, 227, 232)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "silver.dark": {
     "id": "silver.dark",
     "hasDarkText": true,
     "name": "Dark",
@@ -31,7 +31,7 @@
     "backgroundColor": "rgb(196, 205, 213)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "charcoal.lightest": {
     "id": "charcoal.lightest",
     "hasDarkText": true,
     "name": "Lightest",
@@ -39,7 +39,7 @@
     "backgroundColor": "rgb(145, 158, 171)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "charcoal.lighter": {
     "id": "charcoal.lighter",
     "hasDarkText": false,
     "name": "Lighter",
@@ -47,7 +47,7 @@
     "backgroundColor": "rgb(99, 115, 129)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "charcoal.light": {
     "id": "charcoal.light",
     "hasDarkText": false,
     "name": "Light",
@@ -55,7 +55,7 @@
     "backgroundColor": "rgb(69, 79, 91)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "charcoal.base": {
     "id": "charcoal.base",
     "hasDarkText": false,
     "name": "Charcoal",
@@ -63,7 +63,7 @@
     "backgroundColor": "rgb(33, 43, 54)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "galaxy.light": {
     "id": "galaxy.light",
     "hasDarkText": true,
     "name": "Light",
@@ -71,7 +71,7 @@
     "backgroundColor": "rgb(179, 181, 203)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "galaxy.base": {
     "id": "galaxy.base",
     "hasDarkText": false,
     "name": "Galaxy",
@@ -79,7 +79,7 @@
     "backgroundColor": "rgb(67, 70, 127)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "galaxy.dark": {
     "id": "galaxy.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -87,7 +87,7 @@
     "backgroundColor": "rgb(28, 34, 96)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "galaxy.darker": {
     "id": "galaxy.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -95,7 +95,7 @@
     "backgroundColor": "rgb(0, 4, 76)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "purple.lighter": {
     "id": "purple.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -103,7 +103,7 @@
     "backgroundColor": "rgb(246, 240, 253)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "purple.light": {
     "id": "purple.light",
     "hasDarkText": true,
     "name": "Light",
@@ -111,7 +111,7 @@
     "backgroundColor": "rgb(227, 208, 255)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "purple.base": {
     "id": "purple.base",
     "hasDarkText": false,
     "name": "Purple",
@@ -119,7 +119,7 @@
     "backgroundColor": "rgb(156, 106, 222)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "purple.dark": {
     "id": "purple.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -127,7 +127,7 @@
     "backgroundColor": "rgb(80, 36, 143)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "purple.darker": {
     "id": "purple.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -135,7 +135,7 @@
     "backgroundColor": "rgb(35, 0, 81)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "purple.text": {
     "id": "purple.text",
     "hasDarkText": true,
     "name": "Text",
@@ -143,7 +143,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "indigo.lighter": {
     "id": "indigo.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -151,7 +151,7 @@
     "backgroundColor": "rgb(244, 245, 250)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "indigo.light": {
     "id": "indigo.light",
     "hasDarkText": true,
     "name": "Light",
@@ -159,7 +159,7 @@
     "backgroundColor": "rgb(179, 188, 245)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "indigo.base": {
     "id": "indigo.base",
     "hasDarkText": false,
     "name": "Indigo",
@@ -167,7 +167,7 @@
     "backgroundColor": "rgb(92, 106, 196)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "indigo.dark": {
     "id": "indigo.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -175,7 +175,7 @@
     "backgroundColor": "rgb(32, 46, 120)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "indigo.darker": {
     "id": "indigo.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -183,7 +183,7 @@
     "backgroundColor": "rgb(0, 6, 57)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "indigo.text": {
     "id": "indigo.text",
     "hasDarkText": true,
     "name": "Text",
@@ -191,7 +191,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "blue.lighter": {
     "id": "blue.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -199,7 +199,7 @@
     "backgroundColor": "rgb(235, 245, 250)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "blue.light": {
     "id": "blue.light",
     "hasDarkText": true,
     "name": "Light",
@@ -207,7 +207,7 @@
     "backgroundColor": "rgb(180, 225, 250)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "blue.base": {
     "id": "blue.base",
     "hasDarkText": false,
     "name": "Blue",
@@ -215,7 +215,7 @@
     "backgroundColor": "rgb(0, 122, 206)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "blue.dark": {
     "id": "blue.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -223,7 +223,7 @@
     "backgroundColor": "rgb(8, 78, 138)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "blue.darker": {
     "id": "blue.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -231,7 +231,7 @@
     "backgroundColor": "rgb(0, 20, 41)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "blue.text": {
     "id": "blue.text",
     "hasDarkText": true,
     "name": "Text",
@@ -239,7 +239,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "teal.lighter": {
     "id": "teal.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -247,7 +247,7 @@
     "backgroundColor": "rgb(224, 245, 245)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "teal.light": {
     "id": "teal.light",
     "hasDarkText": true,
     "name": "Light",
@@ -255,7 +255,7 @@
     "backgroundColor": "rgb(183, 236, 236)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "teal.base": {
     "id": "teal.base",
     "hasDarkText": true,
     "name": "Teal",
@@ -263,7 +263,7 @@
     "backgroundColor": "rgb(71, 193, 191)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "teal.dark": {
     "id": "teal.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -271,7 +271,7 @@
     "backgroundColor": "rgb(0, 132, 142)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "teal.darker": {
     "id": "teal.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -279,7 +279,7 @@
     "backgroundColor": "rgb(0, 49, 53)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "teal.text": {
     "id": "teal.text",
     "hasDarkText": true,
     "name": "Text",
@@ -287,7 +287,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "green.lighter": {
     "id": "green.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -295,7 +295,7 @@
     "backgroundColor": "rgb(227, 241, 223)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "green.light": {
     "id": "green.light",
     "hasDarkText": true,
     "name": "Light",
@@ -303,7 +303,7 @@
     "backgroundColor": "rgb(187, 229, 179)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "green.base": {
     "id": "green.base",
     "hasDarkText": true,
     "name": "Green",
@@ -311,7 +311,7 @@
     "backgroundColor": "rgb(80, 184, 60)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "green.dark": {
     "id": "green.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -319,7 +319,7 @@
     "backgroundColor": "rgb(16, 128, 67)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "green.darker": {
     "id": "green.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -327,7 +327,7 @@
     "backgroundColor": "rgb(23, 54, 48)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "green.text": {
     "id": "green.text",
     "hasDarkText": true,
     "name": "Text",
@@ -335,7 +335,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "yellow.lighter": {
     "id": "yellow.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -343,7 +343,7 @@
     "backgroundColor": "rgb(252, 241, 205)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "yellow.light": {
     "id": "yellow.light",
     "hasDarkText": true,
     "name": "Light",
@@ -351,7 +351,7 @@
     "backgroundColor": "rgb(255, 234, 138)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "yellow.base": {
     "id": "yellow.base",
     "hasDarkText": true,
     "name": "Yellow",
@@ -359,7 +359,7 @@
     "backgroundColor": "rgb(238, 194, 0)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "yellow.dark": {
     "id": "yellow.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -367,7 +367,7 @@
     "backgroundColor": "rgb(156, 111, 25)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "yellow.darker": {
     "id": "yellow.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -375,7 +375,7 @@
     "backgroundColor": "rgb(87, 59, 0)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "yellow.text": {
     "id": "yellow.text",
     "hasDarkText": true,
     "name": "Text",
@@ -383,7 +383,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "orange.lighter": {
     "id": "orange.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -391,7 +391,7 @@
     "backgroundColor": "rgb(252, 235, 219)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "orange.light": {
     "id": "orange.light",
     "hasDarkText": true,
     "name": "Light",
@@ -399,7 +399,7 @@
     "backgroundColor": "rgb(255, 197, 139)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "orange.base": {
     "id": "orange.base",
     "hasDarkText": true,
     "name": "Orange",
@@ -407,7 +407,7 @@
     "backgroundColor": "rgb(244, 147, 66)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "orange.dark": {
     "id": "orange.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -415,7 +415,7 @@
     "backgroundColor": "rgb(192, 87, 23)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "orange.darker": {
     "id": "orange.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -423,7 +423,7 @@
     "backgroundColor": "rgb(74, 21, 4)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "orange.text": {
     "id": "orange.text",
     "hasDarkText": true,
     "name": "Text",
@@ -431,7 +431,7 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "red.lighter": {
     "id": "red.lighter",
     "hasDarkText": true,
     "name": "Lighter",
@@ -439,7 +439,7 @@
     "backgroundColor": "rgb(251, 234, 229)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "red.light": {
     "id": "red.light",
     "hasDarkText": true,
     "name": "Light",
@@ -447,7 +447,7 @@
     "backgroundColor": "rgb(254, 173, 154)",
     "color": "rgb(22, 29, 37)"
   },
-  {
+  "red.base": {
     "id": "red.base",
     "hasDarkText": false,
     "name": "Red",
@@ -455,7 +455,7 @@
     "backgroundColor": "rgb(222, 54, 24)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "red.dark": {
     "id": "red.dark",
     "hasDarkText": false,
     "name": "Dark",
@@ -463,7 +463,7 @@
     "backgroundColor": "rgb(191, 7, 17)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "red.darker": {
     "id": "red.darker",
     "hasDarkText": false,
     "name": "Darker",
@@ -471,7 +471,7 @@
     "backgroundColor": "rgb(51, 1, 1)",
     "color": "rgb(255, 255, 255)"
   },
-  {
+  "red.text": {
     "id": "red.text",
     "hasDarkText": true,
     "name": "Text",
@@ -479,4 +479,4 @@
     "backgroundColor": "rgb(244, 246, 248)",
     "color": "rgb(22, 29, 37)"
   }
-]
+}
