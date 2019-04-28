@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {Canvas, Heading, Paragraph} from '@cmds/demo-utils'
 import {css, injectGlobal} from 'emotion'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import palettes from '../../src/palettes.json'
@@ -10,6 +11,30 @@ injectGlobal`
     }
 `
 
+export const Box = ({children}) => (
+    <div
+        className={css`
+            width: 100%;
+            background: #fff;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.12);
+            border-radius: 5px;
+            margin-bottom: 50px;
+            padding: 10px;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            margin-right: 16px;
+            &:hover {
+                box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.12)
+            }
+            &:last-of-type {
+                margin-right: 0;
+            }
+        `}
+    >
+        {children}
+    </div>
+)
+
 const ColorPaletteShade = ({paletteId, shade}) => (
     <div
         className={css`
@@ -19,8 +44,8 @@ const ColorPaletteShade = ({paletteId, shade}) => (
             align-items: center;
             padding-top: 16px;
             padding-bottom: 16px;
-            padding-right: 32px;
-            padding-left: 32px;
+            padding-right: 16px;
+            padding-left: 16px;
             font-size: 16px;
             color: ${shade.color};
             background-color: ${shade.backgroundColor};
@@ -55,7 +80,11 @@ const ColorPaletteShade = ({paletteId, shade}) => (
                 {`${paletteId}.${shade.id}`}
             </div>
         </div>
-        <div>
+        <div
+            className={css`
+                font-size: 12px;
+            `}
+        >
             {shade.value}
         </div>
     </div>
@@ -63,37 +92,40 @@ const ColorPaletteShade = ({paletteId, shade}) => (
 
 const ColorPalette = ({palette}) => (
     <div>
-        {palette.shades.map((shade, i) => (
-            <ColorPaletteShade paletteId={palette.id} key={i} shade={shade}/>
-        ))}
+        <Heading>
+            <div
+                className={css`
+                    text-transform: capitalize;
+                `}
+            >
+                {palette.id}
+            </div>
+        </Heading>
+        <div
+            className={css`
+                    display: flex;
+                    align-items: center;
+                `}
+        >
+            {palette.shades.map((shade, i) => (
+                <Box key={i}>
+                    <ColorPaletteShade paletteId={palette.id} shade={shade}/>
+                </Box>
+
+            ))}
+        </div>
     </div>
 )
 
 const Demo = () => (
-    <div className="container-fluid">
-        <h1>
-            Colors
-        </h1>
-        <p>Used for adding color to things.</p>
-        <h2>
-            Color palette
-        </h2>
-        <div className="row">
-            {palettes.map((palette, i) => (
-                <div key={i} className="col-md-4">
-                    <div
-                        className={css`
-                            margin-bottom: 30px;
-                        `}
-                    >
-                        <ColorPalette
-                            palette={palette}
-                        />
-                    </div>
-                </div>
-            ))}
-        </div>
-    </div>
+    <Canvas>
+        {palettes.map((palette, i) => (
+            <ColorPalette
+                key={i}
+                palette={palette}
+            />
+        ))}
+    </Canvas>
 )
 
 ReactDOM.render(<Demo/>, document.querySelector('#demo'))
