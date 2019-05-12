@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Canvas, Heading, Paragraph} from '@cmds/demo-utils'
+import {Canvas, Heading} from '@pndr/demo-utils'
 import {css, injectGlobal} from 'emotion'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import palettes from '../../src/palettes.json'
